@@ -1,6 +1,6 @@
-function amongus(){
-	console.log("sus.");
-	return "sus.";
-}
+const sus = "sus.";
 
-module.exports = amongus;
+module.exports = function() {
+	console.log(sus);
+	return sus;
+};
